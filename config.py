@@ -20,7 +20,7 @@ load_dotenv()
 
 
 class Config:
-  BOT_TOKEN = os.getenv('BOT_TOKEN')
+  BOT_TOKEN = os.getenv('BOT_TOKEN', '6992264465:AAFLUE_QV50Ly9OBpp3IGAo_mkMyfl984-4')
   
   START_TEXT = """Hi,This is link URL shortener bot.
 Send me a link🔗 to get the Shorted URL.
